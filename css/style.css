@@ -8,7 +8,8 @@
 
 
 @import url(https://fonts.googleapis.com/css?family=Michroma);
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,900');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400');
 
 
 /* === fontawesome === */
@@ -33,7 +34,7 @@ body {
 		};
 	*/
 	
-	color:#828282;
+	color:#000;
 	background: #fff;
 	font-size: 16px;
 	line-height: 1.6em;
@@ -46,8 +47,8 @@ body {
 }
 
 
-body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-		font-family: "Lato", sans-serif;
+body, h1, h2, h3, h5, h6, .h1, .h2, .h3, .h5, .h6 {
+		font-family: "Ubuntu", sans-serif;
 		font-weight:300;
 	 /*font-family: "Raleway", Helvetica, Arial, sans-serif;
 	 font-family: "Michroma", sans-serif;*/
@@ -57,6 +58,23 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 		src : url(fonts/MICROGME.ttf) format("truetype");
 		} */
 }
+h4, .h4 {
+		font-family: "Lato", sans-serif;
+		font-weight:200;
+	 /*font-family: "Raleway", Helvetica, Arial, sans-serif;
+	 font-family: "Michroma", sans-serif;*/
+	 /*
+	 @font-face{
+		font-family:"My Custom font";
+		src : url(fonts/MICROGME.ttf) format("truetype");
+		} */
+}
+
+
+
+
+
+
 li a{
 	font-family: "Michroma", sans-serif;
 }
@@ -70,12 +88,13 @@ li a{
 	font-family: "Lato", sans-serif;
 	font-weight:900;
 	font-size:60px;
-	margin-top:-70px;
-	margin-left:-18px;
+	margin-top:-60px;
+	margin-left:-70px;
 }
 .section-heading{
-	font-family: "Lato", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
+	color:#5f5f5f;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -485,7 +504,7 @@ i.service-icon:hover {
 
 section.section {
 	margin:0;
-	padding: 80px 0 60px 0;/*80 0 60 0*/
+	padding: 50px 0 60px 0;/*80 0 60 0*/
 }
 
 
@@ -893,7 +912,7 @@ section.featured h2.slogan {
 	width: 50px;
 	color:#828282;
 	background:#fff;
-	color:#d4d4d4;
+	color:#5a5a5a;
 }
 
 #carousel-slider a i:hover {
@@ -909,12 +928,12 @@ section.featured h2.slogan {
 
 #carousel-slider .carousel-control.left i {
 	left:50px;
-	top: calc(50% - 50px);
+	top: calc(50% - 90px);
 }
 
 #carousel-slider .carousel-control.right i {
 	right: 50px;
-	top: calc(50% - 50px);
+	top: calc(50% - 90px);
 }
 
 .carousel-caption {
@@ -935,7 +954,7 @@ section.featured h2.slogan {
 }
 
 .carousel-caption  h2 span {
-	font-size:60px;
+	font-size:65px;
 	color: #4d4b4c;
 }
 
@@ -1281,7 +1300,7 @@ About
   width: 100%;
   min-width: 100%;
   text-align: center;
-  padding: 100px 0;
+  padding: 70px 0;
   position: relative;
 }
 .team-section .special-heading {
@@ -1478,7 +1497,7 @@ font-size: 14px;
 .box-bg h6,h4{
 	/*font-family:'Open Sans', Arial, sans-serif;
 	font-weight:700;*/
-	line-height:1.1em;
+	line-height:1.6em;
 	
 	margin-bottom: 20px;
 
@@ -1812,7 +1831,7 @@ a.scrollup{
 	bottom:10px;
 	right:10px;
 	z-index:9999;
-	opacity:0.2;
+	opacity:0.7;
 }
 a.scrollup:hover{
 	opacity:1;
